@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
+
+
+
+  
+
+  .panel {
+    overflow: hidden;
+   
+  }
+  .panel:hover{overflow-y: scroll;}
+
+    h4 {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+      font-weight: 300;
+      letter-spacing: 2px;
+    }
+
+    .notification {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      padding-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      background: #2c324e;
+      border-radius: 10px;
+      height: 150px;
+      width: 80%;
+
+      header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+
+        .message {
+          flex: 1 0 60%;
+          line-height: 1.7;
+          font-size: 0.9rem;
+          font-weight: 300;
+          letter-spacing: 1px;
+          margin-top: 0;
+        }
+
+        i {
+          padding-left: 40px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      
+     
+      
+      div {
+        display: flex;
+        align-items: center;
+        
+
+        .profile-pic {
+          max-width: 100%;
+          height: auto;
+          width: 1.5rem;
+          height: 1.5rem;
+          margin-right: 1rem;
+          border-radius: 50%;
+          border: 1px solid #4a9bff;
+        }
+
+        p {
+          font-size: 0.8rem;
+          font-weight: 600;
+          letter-spacing: 0.5px;
+          color: #8793BC;
+          margin-left: 3px;
+          margin-right: 20px;
+        }
+      }
+      
+     
+    }
+
+    
+  
+
+span {
+    color: #8793BC;
+    font-size: .7rem;
+    letter-spacing: 1px;
+    margin:0;
+  }
+  .buttons{display: flex;
+justify-content: center;}
+button {
+    max-width: 140px;
+    height: 45px;
+    margin-top: auto;
+    margin-left: 3px;
+    padding: 0.3rem 0.9rem;
+    align-self: center;
+    color: white;
+    outline: none;
+    border: none;
+    background: #4a9bff;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
